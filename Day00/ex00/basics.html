@@ -1,23 +1,88 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Basics</title>
 	<style>
+		body {
+			background-color: lightpink;
+		}
+
+		h1 {
+			color: white;
+			font-family: helvetica;
+			text-align: center;
+		}
+
+		p {
+			text-align: right;
+			font-family: monospace;
+			font-style: italic;
+		}
+
+		#header {
+			height: 19%;
+			width: 99%;
+			padding 0.5%;
+			margin 0.5%;
+			float: left;
+		}
+			
 		#top {
-			 height: 50%;
-			 width: 100%;
-			 align: left;
-			 }
+			height: 60%;
+			width: 100%;
+			border-bottom: 5px solid white;
+			float: left;
+		}
+
+		div.gallery {
+			width: 29.5%;
+			margin-left: 10%;
+			margin-right: 10%;
+			float: left;
+		}
+		
+		div.gallery img {
+			width: 100%;
+			height: 200px;
+		}
+
+		div.desc {
+			padding: 1%;
+			width: 99%;
+			text-align: center;
+			float: left;
+		}
+		
 		#bot {
-			 height: 50%;
-			 width: 100%;
-			 align: left;
-			 }
+			height: 19%;
+			width: 98%;
+			padding: 0.5%;
+			margin: 0.5%;
+			float: left;
+		
+		}
 	</style>
 </head>
 <body>
-<div id="top">
-</div>
-<div id="bot">
-</div>
+	<div id="header">
+		<h1>Ca$h!</h1>
+	</div>
+	<div id="top">
+		<div class="gallery">
+			<img src="https://www.teamworld.it/wp-content/uploads/2017/02/Amazon-Bonus-Cultura-620x400.jpg" alt="Amazon">
+			<div class="desc">
+				<a href="https://www.amazon.it">Amazon</a>
+			</div>
+		</div>
+		<div class="gallery">
+			<img src="https://www.ecommerce-nation.fr/wp-content/uploads/2019/06/eBay-du-site-de-ventes-aux-ench%C3%A8res-%C3%A0-la-marketplace-renomm%C3%A9e.png" alt="Ebay">
+			<div class="desc">
+				<a href="https://www.ebay.it">Ebay</a>
+			</div>
+		</div>
+	</div>
+	<div id="bot">
+		<p>&copy; alfiumic 2019</p>
+	</div>
 </body>
 </html>
