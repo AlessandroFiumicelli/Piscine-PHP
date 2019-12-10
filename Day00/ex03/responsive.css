@@ -1,4 +1,5 @@
 body {
+	background-image: url("https://simrankaurjaipur.com/wp-content/uploads/2019/08/dmitri-mendeleev-4.jpg");
 	width; 100%;
 	height: 100%;
 	margin: auto;
@@ -35,6 +36,7 @@ td {
 
 h1 {
 	font-family: monospace;
+	font-style: bold;
 	font-size: 2vw;
 	margin: 0;
 	text-align: center;
