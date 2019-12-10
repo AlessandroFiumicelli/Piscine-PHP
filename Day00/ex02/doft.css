@@ -133,8 +133,8 @@ form {
 }
 
 .big {
-	font-family: Courier;
-	font-size: 1.5vw;
+	font-style: bold;
+	font-size: 2vw;
 }
 .shadow {
 	text-shadow: 3px 3px 3px red;

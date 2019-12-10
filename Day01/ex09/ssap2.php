@@ -2,14 +2,16 @@
 <?PHP
 function concatenate_args($argv, $argc)
 {
+	$string = "";
 	$i = 1;
 	while ($i < $argc)
 	{
-		$string = " ".$argv[$i]." ";
+		$string .= " ".$argv[$i]." ";
 		$i++;
 	}
 	return ($string);
 }
+
 function clean_string($string)
 {
 	$trimmed = trim($string);
@@ -17,6 +19,7 @@ function clean_string($string)
 		$trimmed = str_replace("  ", " ", $trimmed);
 	return ($trimmed);
 }
+
 function	custom_sort($a, $b)
 {
 	$ca = strtolower($a);
