@@ -1,1 +1,1 @@
-SELECT title, summary FROM film WHERE summary LIKE '%Vincent%' COLLATE utf8_general_ci;
+SELECT title, summary FROM film WHERE summary LIKE '%Vincent%' ORDER BY id_film;
